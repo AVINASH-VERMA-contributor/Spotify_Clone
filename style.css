@@ -44,11 +44,14 @@ nav ul li{
     background-color: black;
     color: white;
     font-family: 'Varela',sans-serif; 
-    display:flex;
+    display:flexbox;
     margin:20px auto;
     width: 70%;
     border-radius: 12px;
     padding:32px;
+    background: url('bg.jpg');
+    background-size: cover;
+
 }
 .bottom{
     position: sticky;
@@ -62,10 +65,42 @@ nav ul li{
 }
 #ProgressBar{
     width:80vw;
-    
 }
 
 .icons img{
     padding-top: 10px;
     height:50px;  
+}
+
+.songitem{
+    height:50px;
+    display: flex;
+    background-color: white;
+    width: 40%;
+    color:black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    border-radius: 32px;
+    padding:0px;
+    font-weight: bold;
+    
+}
+
+.songname{
+    margin-top: 12px;
+}
+
+.songitemcontainer{
+    margin-top: 40px;
+}
+
+.timestamp img{
+    margin-right: 10px;
+}
+
+.songitem img{
+    margin-left: 10px;
+    margin-top: 5px;
+    height:80%;
+    border-radius: 32px;
 }
